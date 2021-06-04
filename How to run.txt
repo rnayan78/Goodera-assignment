@@ -1,0 +1,12 @@
+1. Extract this folder
+2. Make sure you have Pandas installed if not just do "pip intsall pandas"
+3. Also install openpyxl by doing "pip install openpyxl"
+4. Change the path of excel file accordingly in the goodera.py code
+
+    df = pd.read_excel(r'Path where the Excel file is stored\File name.xlsx') 
+
+5. Change the answer.xlsx to anythig like answer1.xlsx.
+    
+    df.to_excel("answer.xlsx")  
+
+6. Run it :)
