@@ -10,4 +10,4 @@ df['a'] = df['a'].str.capitalize()
 
 
 print(df) #prints the new input value 
-#df.to_excel("answer.xlsx")  
+#df.to_excel("answer.xlsx")   #saves a new filw with updated input values
